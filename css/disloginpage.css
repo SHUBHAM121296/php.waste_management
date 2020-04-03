@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+
+}
+body
+{
+  background: blueviolet;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  font-family:"Montserret",sans-serif;
+height:100vh;
+margin:-20px 0 50px;
+}
+
+h1
+{
+  font-weight:bold;
+  margin:0;
+  font-size:30;
+
+}
+h2{
+  font-size:20;
+
+  font-weight:bold;
+  text-align:center;
+}
+
+
+
+button{
+  border-radius: 20px;
+  border:1px solid blueviolet;
+  background-color: blueviolet;
+  color: #FFFFFF;
+  font-size:12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+
+
+}
+a{
+
+    font-size:12px;
+  }
+
+
+form{
+  background-color: #FFFFFF;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+  padding: 0px 50px;
+  height: 100%;
+  text-align:center;
+}
+input{
+  background-color:#eee;
+  border-radius:15px;
+  border:none;
+  padding: 12px 15px;
+  margin: 8px 0px;
+  width: 100%;
+}
+.container
+{ background-color: #FFFFFF;
+  border-radius: 30px;
+  box-shadow:  0 14px 20px rgb(68, 65, 65),             
+               0 14px 10px rgba(68,65,65);
+position:absolute;
+overflow:hidden;
+
+width: 450px;
+
+min-height:400px;
+}
+
+.form-container
+{
+  position:absolute;
+  width:300px;
+  margin-left: 20px;
+  top:0;
+  height:100%;
+
+
+} 
+
+
+.sign-up-container
+{
+  margin-right: 50%;
+ align-items: center;
+  width:90%;
+  
+  z-index:1;
+}
+ 
